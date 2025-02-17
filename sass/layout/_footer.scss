@@ -39,6 +39,14 @@
 
     &__list{
         list-style: none;
+        @include respond(phone){
+            //padding-top: 3rem;
+            line-height: 3;
+        }
+        @include respond(tab-port){
+            //padding-top: 3rem;
+            line-height: 3;
+        }
     }
 
     &__item{
@@ -47,6 +55,7 @@
         &:not(:last-child){
             margin-right: 1.5rem;
         }
+
     }
 
     &__link{

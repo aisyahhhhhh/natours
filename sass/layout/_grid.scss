@@ -9,6 +9,7 @@
         @include respond(tab-port){
             margin-bottom: $gutter-vertical-small;
         }
+
     }
 
     @include respond(tab-port){
@@ -27,13 +28,16 @@
 
             @include respond(tab-port){
                 margin-right: 0;
-                margin-bottom: $gutter-vertical-small;
+                // margin-bottom: $gutter-vertical-small;
+                margin-bottom: 1rem;
+
             }
         }
 
         @include respond(tab-port){
             width: 100% !important;
         }
+        
     }
 
     .col-1-of-2{
